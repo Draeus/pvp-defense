@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PvpDefense")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+127ecee1a25c995721c1529c989c1bcdaff037c2")]
 [assembly: System.Reflection.AssemblyProductAttribute("PvpDefense")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PvpDefense")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
