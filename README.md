@@ -28,4 +28,4 @@
 
 ### Download me!
 
-[Download PvpDefense.dll](https://github.com/draeus/tshock-true-crown/raw/main/bin/Debug/net6.0/PvpDefense.dll)
+[Download PvpDefense.dll](https://github.com/Draeus/pvp-defense/raw/main/bin/Debug/net6.0/PvpDefense.dll)
