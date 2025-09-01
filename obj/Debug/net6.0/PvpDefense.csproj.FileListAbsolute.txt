@@ -11,3 +11,4 @@ C:\Users\ethan\source\repos\PvpDefense\PvpDefense\obj\Debug\net6.0\PvpDefense.dl
 C:\Users\ethan\source\repos\PvpDefense\PvpDefense\obj\Debug\net6.0\refint\PvpDefense.dll
 C:\Users\ethan\source\repos\PvpDefense\PvpDefense\obj\Debug\net6.0\PvpDefense.pdb
 C:\Users\ethan\source\repos\PvpDefense\PvpDefense\obj\Debug\net6.0\ref\PvpDefense.dll
+C:\Users\ethan\source\repos\PvpDefense\PvpDefense\obj\Debug\net6.0\PvpDefense.sourcelink.json

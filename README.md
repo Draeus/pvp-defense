@@ -22,7 +22,7 @@
  This is in early alpha and is lacking a lot of polish. Expect bugs. 
  * This plugin will likely interfere with other plugins that modify pvp damage directly. This is unlikely to be fixed.
  * Enable crit in the config is nonfunctional. This is intended for a later release, but is a stub for now.
- * Damage numbers ingame will be the unadjusted vanilla numbers. Intended to be fixed in the next release.
+ * Vanilla damage numbers haven't been able to be removed. It's a potential improvement for later.
 
 ***
 

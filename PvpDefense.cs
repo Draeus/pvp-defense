@@ -2,6 +2,7 @@
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.DataStructures;
+using Terraria.Localization;
 using TerrariaApi.Server;
 using TShockAPI;
 using TShockAPI.Hooks;
@@ -99,10 +100,11 @@ namespace PvpDefense
                     pvp: false,
                     10
                 );
-
+                // send additional damage popup
+                NetMessage.SendData(119, -1, -1, NetworkText.FromLiteral($"+{Math.Max(1, adjustedDamage - vanillaDamageReduced) - Math.Max(1, initialDamage - vanillaDamageReduced)}"), (int)Color.Tomato.PackedValue, target.TPlayer.position.X + 40, target.TPlayer.position.Y + 10);
             });
             // optional log for debugging
-            TShock.Log.ConsoleInfo(
+            TShock.Log.ConsoleInfo( 
                 $"[PvP] {attacker.Name} → {target.Name}: Def {defense}, Eff {vanillaDamageReduced} -> {damageReduced}, Dmg {Math.Max(1, initialDamage - vanillaDamageReduced)} -> {Math.Max(1, adjustedDamage - vanillaDamageReduced)} Crit: {isCrit}"
             );
         }
